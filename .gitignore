@@ -1,0 +1,83 @@
+# Node modules
+node_modules/
+jspm_packages/
+
+# Build output
+dist/
+build/
+out/
+tmp/
+temp/
+
+# Dependency directories
+bower_components/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE & Editor settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Cache files
+.cache/
+.next/
+.nuxt/
+.svelte-kit/
+.storybook-out/
+.terraform/
+.eslintcache
+.parcel-cache/
+webpack-cache/
+rollup-cache/
+vite-cache/
+vite-dist/
+
+# Testing
+jest-html-reporters-*.html
+test-output/
+cypress/videos/
+cypress/screenshots/
+
+# TypeScript (if applicable)
+*.tsbuildinfo
+
+# Optional lock files (if you prefer not to commit them)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Misc
+*.tgz
+*.zip
+*.tar
