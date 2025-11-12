@@ -81,6 +81,6 @@ Adding or removing elements in these arrays will instantly change the kinds of m
 
 ---
 
-## 📜 License
+##  License
 
 This project is licensed under the **MIT License** — free for personal and commercial use.
