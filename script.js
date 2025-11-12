@@ -9,11 +9,11 @@ const randomNum = function() {
     return Math.floor(Math.random() * 6);
 }
 
-const randomMessage = function() {
+const randomMessage = function(range) {
     let message = [];
 
     for(let prop in messageGenerator) {
-        let index = randomNum();
+        let index = randomNum(messageGenerator[prop].length);
 
         switch (prop) {
             case 'signInfo':
